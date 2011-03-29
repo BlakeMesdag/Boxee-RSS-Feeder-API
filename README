@@ -1,0 +1,9 @@
+Config file is location in inc/config.php
+
+A templated database is NOT included, create a table called KeyPairs in a
+database of your choosing, assign a read-only user and use those credentials
+in inc/config.php.
+
+All configuration should be done in config.php, you only need to make sure
+your paths are correct. This version is probably broken as I haven't tested
+the code changes and all the links will point to a subdir (TV).
